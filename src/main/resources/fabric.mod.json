@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "endbed",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "EndBed Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Maheesha"
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.maheevil.example.ExampleMod"
+      "io.github.maheevil.endbed.EndBedMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "endbed.mixins.json"
   ],
 
   "depends": {
